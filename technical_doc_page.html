@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    
+</body>
+</html>
+<nav id="navbar">
+  <header>CSS Grid Property</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Constituent_Properties">Constituent Properties</a></li>
+    <li><a class="nav-link" href="#Values">Values</a></li>
+    <li><a class="nav-link" href="#Formal_Definition">Formal Definition</a></li>
+    <li><a class="nav-link" href="#Specifications">Specifications</a></li>
+    <li><a class="nav-link" href="#See_Also">See Also</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>The grid CSS property is a shorthand property that sets all of the explicit and implicit grid properties in a single declaration.</p>
+      <p>Using grid you specify one axis using grid-template-rows or grid-template-columns, you then specify how content should auto-repeat in the other axis using the implicit grid properties: grid-auto-rows, grid-auto-columns, and grid-auto-flow.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Constituent_Properties">
+  <header>Constituent Properties</header>
+    <article>
+      <p>This property is a shorthand for the following CSS properties:</p>
+      <ul>
+        <li><code>grid-auto-columns</code></li>
+        <li><code>grid-auto-flow</code></li>
+        <li><code>grid-auto-rows</code></li>
+        <li><code>grid-template-areas</code></li>
+        <li><code>grid-template-columns</code></li>
+        <li><code>grid-template-rows</code></li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Values">
+    <header>Values</header>
+    <article>
+      <p>Defines the grid-template including grid-template-columns, grid-template-rows and grid-template-areas, grid-template-rows, grid-auto-columns.</p>
+<p>Sets up an auto-flow by setting the row tracks explicitly via the grid-template-rows property (and the grid-template-columns property to none) and specifying how to auto-repeat the column tracks via grid-auto-columns (and setting grid-auto-rows to auto). grid-auto-flow is also set to column accordingly, with dense if it’s specified. All other grid sub-properties are reset to their initial values.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Formal_Definition">
+    <header>Formal Definition</header>
+    <article>
+      <p>Initial value as each of the properties of the shorthand:</p>
+        <ul>
+          <li><code>grid-template-rows: none</code></li>
+          <li><code>grid-template-columns: none</code></li>
+          <li><code>grid-template-areas: none</code></li>
+          <li><code>grid-auto-rows: auto</code></li>
+          <li><code>grid-auto-columns: auto</code></li>
+          <li><code>grid-auto-flow: row</code></li>
+          <li><code>grid-column-gap: 0</code></li>
+          <li><code>grid-row-gap: 0</code></li>
+          <li><code>column-gap: normal</code></li>
+          <li><code>row-gap: normal</code></li>
+        </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Specifications">
+    <header>Specifications</header>
+    <article>
+      <p>CSS Grid Layout Module Level 3 (CSS Grid Layout 3).</p>
+    </article>
+  </section>
+  <section class="main-section" id="See_Also">
+    <header>See Also</header>
+    <article>
+      <p>Related CSS properties: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template" target="_blank">grid-template</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" target="_blank">grid-template-rows</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" target="_blank">grid-template-columns</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas" target="_blank">grid-template-areas<a/>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns" target="_blank">grid-auto-columns</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows" target="_blank">grid-auto-rows</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" target="_blank">grid-auto-flow</a>.</p>
+      <p>Grid Layout Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid" target="_blank">Line-based placement with CSS Grid</a>.</p>
+      <p>Grid Layout Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas#grid_definition_shorthands" target="_blank">Grid template areas - Grid definition shorthands</a>.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid" target="_blank">MDN</a></li>
+      </ul>
+    </article>
+  </section>
+</main>
